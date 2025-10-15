@@ -1,6 +1,4 @@
 #include "Player.h"
 
-// Constructor definition
 Player::Player(char sym, std::string n) : symbol(sym), name(n) {}
-
-// Note: Getters are defined inline in Player.h
+//remember that this is the way you can create strings (how you did it in C)

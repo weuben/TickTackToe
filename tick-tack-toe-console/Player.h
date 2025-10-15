@@ -10,10 +10,9 @@ private:
     std::string name;
 
 public:
-    // Constructor
     Player(char sym = 'X', std::string n = "Player X");
 
-    // Getter methods (defined inline for simplicity, or in Player.cpp)
+    // Getter methods
     char getSymbol() const { return symbol; }
     std::string getName() const { return name; }
 };

@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(tick_tack_toe_console
         Main.cpp
         Player.cpp
-        Player.h)
+        Player.h
+        Board.cpp
+        Board.h)
