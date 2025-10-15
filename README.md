@@ -3,8 +3,9 @@ This is my first C++ program.
 
 I am making a game board which has a 3x3 charcter grid interface for both users (along with a counter to track filled cells).
 
-I have used methods drawBoard() to show what the board currently looks like at every turn.
-isValidMove() is checking if the move that the user does is valid.
-makeMove() updates the board with the current player's new move.
+This game is developed using a 3x3 grid in the console interface.
+This game is for 2 players.
+Each player gets one turn each and cannot overwrite another players previous choice.
+The first person to fill all cells wins OR ends in a draw if all spaces are filled without one player getting 3 cells in a row.
 
 <img width="161" height="213" alt="image" src="https://github.com/user-attachments/assets/80f636fa-7cff-4d46-975c-16c929e14a05" />
