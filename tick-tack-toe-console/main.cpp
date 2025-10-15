@@ -1,8 +1,10 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include "TicTacToe.h"
 
-//This is my first C++ program
 
-//Check readme.txt file on GitHub to see my thought process
 
+int main() {
+    TicTacToe game;
+
+    game.play();
+    return 0;
+}

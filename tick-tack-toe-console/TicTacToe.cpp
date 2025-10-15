@@ -1,6 +1,7 @@
 #include "TicTacToe.h"
-#include <iostream> // Needed for std::cout, std::cin, std::endl
-#include <string>   // Needed for std::string
+#include <iostream>
+#include <string>
+#include <limits>
 
 // Use standard namespace for brevity in implementation file
 using namespace std;
@@ -21,7 +22,7 @@ void TicTacToe::switchTurn() {
     currentPlayerIndex = (currentPlayerIndex + 1) % 2;
 }
 
-// Method to play the game
+// Method to start the game
 void TicTacToe::play() {
     int row, col;
     cout << "Welcome to Tic-Tac-Toe!" << endl;

@@ -3,7 +3,6 @@
 
 #include <iostream>
 
-// Board class to manage game board
 class Board {
 private:
     char grid[3][3];
