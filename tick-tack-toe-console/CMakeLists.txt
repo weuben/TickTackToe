@@ -8,4 +8,6 @@ add_executable(tick_tack_toe_console
         Player.cpp
         Player.h
         Board.cpp
-        Board.h)
+        Board.h
+        TicTacToe.cpp
+        TicTacToe.h)

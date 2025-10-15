@@ -70,6 +70,13 @@ build CMakeFiles/tick_tack_toe_console.dir/Board.cpp.obj: CXX_COMPILER__tick_tac
   OBJECT_DIR = CMakeFiles\tick_tack_toe_console.dir
   OBJECT_FILE_DIR = CMakeFiles\tick_tack_toe_console.dir
 
+build CMakeFiles/tick_tack_toe_console.dir/TicTacToe.cpp.obj: CXX_COMPILER__tick_tack_toe_console_unscanned_Debug C$:/Users/tinyt/Documents/Coding/C++/tick-tack-toe-console/TicTacToe.cpp || cmake_object_order_depends_target_tick_tack_toe_console
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\tick_tack_toe_console.dir\TicTacToe.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tick_tack_toe_console.dir
+  OBJECT_FILE_DIR = CMakeFiles\tick_tack_toe_console.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target tick_tack_toe_console
@@ -78,7 +85,7 @@ build CMakeFiles/tick_tack_toe_console.dir/Board.cpp.obj: CXX_COMPILER__tick_tac
 #############################################
 # Link the executable tick_tack_toe_console.exe
 
-build tick_tack_toe_console.exe: CXX_EXECUTABLE_LINKER__tick_tack_toe_console_Debug CMakeFiles/tick_tack_toe_console.dir/Main.cpp.obj CMakeFiles/tick_tack_toe_console.dir/Player.cpp.obj CMakeFiles/tick_tack_toe_console.dir/Board.cpp.obj
+build tick_tack_toe_console.exe: CXX_EXECUTABLE_LINKER__tick_tack_toe_console_Debug CMakeFiles/tick_tack_toe_console.dir/Main.cpp.obj CMakeFiles/tick_tack_toe_console.dir/Player.cpp.obj CMakeFiles/tick_tack_toe_console.dir/Board.cpp.obj CMakeFiles/tick_tack_toe_console.dir/TicTacToe.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
